@@ -135,12 +135,12 @@ rl.question("Enter the number of loops: ", async (loopsInput) => {
                     
                     await fetchInference(inferenceId, 1);
                     await fetchInference(inferenceId, 2);
-                    console.log("=== Telegram Channel : NT Exhaust ( @NTExhaust ) ===\n")
+                    console.log("=== Join Telegram @AirdropSyncReborn ===\n")
                     const stats = await fetchStats(walletAddress);
                     console.log("📊 User Interaction Stats:", stats);
                     
                     console.log("✔ Operation successful!");
-                    console.log("=== Telegram Channel : NT Exhaust ( @NTExhaust ) ===\n")
+                    console.log("=== Join Telegram @AirdropSyncReborn ===\n")
                     interactionCounter++;
                     await delay(10000);
                 }
